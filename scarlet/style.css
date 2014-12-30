@@ -1,0 +1,427 @@
+/*  
+
+Theme Name: Scarlet Feather
+
+Theme URI: http://blog.nekohand.moe
+
+Description: A Light Galgame Theme
+
+Version: 2.00
+
+Author: eclosionstudio
+
+Author URI: http://blog.nekohand.moe
+
+
+
+
+*/
+
+/*body
+
+$('#freshcontent').css("opacity", "0.85");
+		$('.page_navi').css("opacity", "0.85");
+		$('#freshcontent').css("background-color", "transparent");
+		$('.page_navi').css("background-color", "#ffffff");
+		$('.sac').css("background-color", "#ffffff");
+
+*/
+body {
+	background: #EEE;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+	padding: 0;
+}
+html, textarea, input, option, button {
+	font: 12px 'Microsoft JhengHei','微軟正黑體','Microsoft YaHei','微软雅黑',Tahoma,Verdana,sans-serif;
+}
+h2 {
+    color: red;
+    font-weight:bolder;
+}
+
+#headimg {
+    margin-left: 12%;
+    width: 75%;
+    max-height: 450px;
+    overflow: hidden;
+    text-align:center;
+}
+#headimg img{
+   width: 75%;
+   height: auto;
+   overflow: hidden;
+}
+#freshcontent{
+ opacity:0.85;
+ background-color:transparent;
+}
+#articlecontent{
+   margin-left: 12%;
+   width: 75%;
+   margin: 0 auto;
+}
+#findmebest{
+  float:right;
+  padding:10px 10px;
+  font-size:16px;
+}
+#findmebest li{
+    list-style: none;
+    float:left;
+    margin-left: 10px;
+}
+#findmebest li a{
+    display:block; /* 将链接设为块级元素 */
+    color: #DE3163;
+    font-weight: bolder;
+}
+#findmebest li a:hover{
+    display:block; /* 将链接设为块级元素 */
+    color: black;
+    font-weight: bolder;
+}
+
+.titleblock {
+padding: 10px 20px;
+margin-bottom: 0;
+margin-left: -23px;
+padding-left:20px;
+border-left: 3px solid red;
+}
+.titleblock a{
+ font-size: 24px;
+ color: red;
+ font-weight: bolder;
+}
+.titleblock a:hover{
+ color: purple;
+}
+.ctitle {
+ margin-top:0;
+ margin-left:5px;
+}
+.articletitle{
+ margin-bottom: 20px;
+ margin-left: -12px;
+ margin-right: -12px;
+ padding: 10px 10px;
+ background-color:#eee;
+}
+.sac{
+ background-color: #fff;
+ max-width:75%;
+ margin-left:12%;
+ padding:20px 20px;
+ border-bottom:0;
+}
+.postcontent{
+ padding-bottom: 20px;
+ border-bottom: 1px dashed red;
+}
+.pagelist{
+ margin-left:12%;
+ max-width:75%;
+}
+.roller li{
+    list-style: none;
+    float:left;
+}
+.clear{
+    clear: both;
+}
+.footinfo{
+    margin-left:12%;
+    max-width:75%;
+    background-color: #DE3163;
+    opacity:0.8;
+    margin-top:0;
+    margin-bottom:5px;
+    padding:15px 15px;
+    text-align:center;
+    color: gold;
+    font-weight: bolder;
+    font-size: 12px;
+}
+.page_navi {
+    background-color:#fff;
+    margin-left:12%;
+    width:75%;
+    height:36px;
+    line-height:36px;
+    text-align:center;
+    overflow:hidden;
+    padding-top:0;
+}
+span.page-numbers{padding:3px 8px;margin:2px;text-decoration:none;color:#000;border:1px solid #000;}
+a.page-numbers, .page_navi a{padding:3px 8px;margin:2px;text-decoration:none;color:#888;border:1px solid #ccf;}
+a.page-numbers:hover, .page_navi a:hover,.page_navi .current{border:1px solid #356aa0;color:#356aa0;font-weight:bolder;}
+
+
+#gotop{
+    cursor: pointer;
+    position: fixed;
+    display: block;
+    text-align: center;
+    border-bottom: none;
+    z-index: 9999;
+}
+#gotop a{
+    width: 40px;
+    height: 70px;
+    background:url(http://blog.nekohand.moe/wp-content/uploads/DR92.png) no-repeat;
+    display:block;
+}
+#gotop a:hover{
+    background-position: 0 -70px;
+}
+
+#profile .widget {
+    float: right;
+    list-style: none;
+    margin: 0px 10px;
+    height:200px;
+}
+#profile .widget li {
+    list-style: none;
+    font-size:12px;
+    
+}
+#profile .widget h2{
+    color: blue;
+    font-size: 15px;
+}
+#foottransform img{
+-ms-transform:rotate(180deg); 	/* IE 9 */
+-moz-transform:rotate(180deg); 	/* Firefox */
+-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+-o-transform:rotate(180deg); 	/* Opera */
+transform:rotate(180deg);
+}
+
+.comments h1{
+    display:none;
+}
+#topbanner{
+  margin-left:12%;
+  margin-top:28px;
+  margin-bottom:0;
+  padding: 15px 15px;
+  background:url(http://blog.nekohand.moe/wp-content/uploads/LCAA.jpg) no-repeat;
+  background-color: #f0f0f0; 
+  opacity:0.85;
+  max-width:75%;
+  min-height: 200px;
+}
+.navbar{
+    margin-left:12%;
+    width:75%
+}
+.com_title{
+    color: red;
+    font-size: 18px;
+    margin:10px 10px;
+}
+input#author, input#email, input#url, textarea#comment{
+    font-size:18px;
+}
+article.comment-body{
+    min-height:90px;
+    margin-bottom: 4px;
+    padding: 10px 10px;
+    background-color: #eee;
+/*border-top: 2px solid blue;
+border-left: 2px solid blue;
+border-right: 2px solid blue;
+border-bottom: 2px solid blue;
+*/
+
+
+
+}
+input#s{
+    float: right;
+    margin-top:30px;
+    margin-right:-160px;
+    background-color:yellow;
+}
+#comments{
+    padding-right:20px;
+}
+span.says{
+    display:none;
+}
+.comment-metadata{
+position: relative;
+top: 0;
+left:0;
+}
+.comment-content p{
+ margin-bottom:0;
+}
+.reply{
+text-align: right;
+}
+#post-related{
+   margin-top:15px;
+}
+ol, ol.children{
+    list-style:none;
+}
+
+/*Others*/
+/*ajax loading*/
+#loading-article{
+    position: fixed;
+    top:0;
+    left:0;
+    margin-top:30px;
+    margin-left:12%;
+    width:75%;
+    opacity:1;
+    font-size:28px;
+    text-align:left;
+    z-index:999;
+}
+
+/*TAG CLOUD*/
+.tagcloud {
+padding-left: 5px;
+font-family: "Microsoft YaHei",Helvetica,sans-serif;
+transition: .5s;-webkit-transition: .5s;-moz-transition: .5s;-o-transition: .5s;
+}
+ .widget_tag_cloud a, .almeros_tags a {
+background-color: rgba(236, 116, 92, 0.71);
+box-shadow: 0 0 1px #999999;
+color: #FFFFFF !important;
+display: inline-block;
+float: none;
+margin: 2px 1px;
+padding: 5px 3px;
+text-decoration: none;
+font-size: 19px!important;
+transition: .5s;-webkit-transition: .5s;-moz-transition: .5s;-o-transition: .5s;
+}
+ .widget_tag_cloud a:hover, .almeros_tags a:hover {
+background-color: #0C92DA;
+box-shadow: 0 0 10px #000032;
+color: #FFFFFF !important;
+transition: .5s;-webkit-transition: .5s;-moz-transition: .5s;-o-transition: .5s;
+}
+.widget_tag_cloud a:nth-child(2n), .almeros_tags a:nth-child(2n) {
+background-color: #FF9F51;
+}
+.widget_tag_cloud a:nth-child(2n):hover, .almeros_tags a:nth-child(2n):hover {
+background-color: #0C92DA;
+transition: .5s;-webkit-transition: .5s;-moz-transition: .5s;-o-transition: .5s;
+}
+.widget_tag_cloud a:nth-child(4n), .almeros_tags a:nth-child(4n) {
+background-color: #9AB9E4;
+}
+.widget_tag_cloud a:nth-child(4n):hover, .almeros_tags a:nth-child(4n):hover {
+background-color: #0C92DA;
+transition: .5s;-webkit-transition: .5s;-moz-transition: .5s;-o-transition: .5s;
+}
+.widget_tag_cloud a:nth-child(5n), .almeros_tags a:nth-child(5n) {
+background-color: #9AB9D4;
+}
+.widget_tag_cloud a:nth-child(5n):hover, .almeros_tags a:nth-child(5n):hover {
+background-color: #0C92DA;
+transition: .5s;-webkit-transition: .5s;-moz-transition: .5s;-o-transition: .5s;
+}
+
+
+.btn-info{
+ margin:4px;
+}
+.btn-success{
+ margin:4px;
+}
+.btn-danger{
+ margin:4px;
+}
+
+#archive_list li{
+ margin: 4px;
+}
+#link_list li{
+ margin: 4px;
+}
+
+.title{
+ padding-bottom: 10px;
+ border-bottom: 1px dashed red;
+ margin-top: 8px;
+ padding-top:10px;
+ margin-bottom: 10px;
+ font-size: 16px;
+ font-weight: bolder;
+}
+
+
+/*-----calendar-----*/
+.widget_calendar h3 {
+    display:none;
+}
+#wp-calendar {
+    width:100%;
+}
+#wp-calendar #today {
+    background:#E6E6E6;
+}
+#wp-calendar tbody a {
+    font-weight:bold;
+}
+#wp-calendar caption {
+    font-family:Arial;
+    font-weight:bold;
+    letter-spacing:-0.05em;
+    font-size:100%;
+    text-align:left;
+    padding-bottom:5px;
+}
+#wp-calendar th,
+#wp-calendar td {
+    text-align:center;
+}
+#wp-calendar tbody td {
+    border:1px solid #CCC;
+}
+#wp-calendar tbody td.pad {
+    border:0 none;
+}
+#wp-calendar th {
+    background:#999;
+    color:#FFF;
+}
+#wp-calendar td#prev {
+    text-align:left;
+    padding-top:5px;
+}
+#wp-calendar td#next {
+    text-align:right;
+    padding-top:5px;
+}
+
+
+
+
+/*设置鼠标悬浮在头像时的CSS样式*/  
+.avatar{float:left;margin-right:8px;padding:1px;border:1px solid #cfd9e1;width:70px;height:70px; /*设置图像的长和宽*/   
+border-radius: 35px;/*设置图像圆角效果,在这里我直接设置了超过width/2的像素，即为圆形了*/   
+-webkit-border-radius: 35px;/*圆角效果：兼容webkit浏览器*/   
+-moz-border-radius:35px;   
+box-shadow: inset 0 -1px 0 #3333sf;/*设置图像阴影效果*/   
+-webkit-box-shadow: inset 0 -1px 0 #3333sf;   
+-webkit-transition: 0.4s;       
+-webkit-transition: -webkit-transform 0.4s ease-out;   
+transition: transform 0.4s ease-out;/*变化时间设置为0.4秒(变化动作即为下面的图像旋转360度）*/   
+-moz-transition: -moz-transform 0.4s ease-out;   
+}    
+.avatar:hover
+{ 
+box-shadow: 0 0 10px  rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);   
+-webkit-box-shadow: 0 0 10px  rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);   
+transform: rotateZ(360deg);/*图像旋转360度*/   
+-webkit-transform: rotateZ(360deg);   
+-moz-transform: rotateZ(360deg);
+} 
