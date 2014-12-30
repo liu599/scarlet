@@ -13,8 +13,4 @@ A light-weight template for WP, used for nekohand.moe
 
 比较适合于再次开发
 
-代码来源:
-
-======
-
-我在整理中。 这些代码都是开源可用的, 但必须注明引用的源地址。
+这些代码都是开源可用的, 但必须注明引用的源地址。
