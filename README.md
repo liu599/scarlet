@@ -1,7 +1,7 @@
 scarlet
 =======
 
-A light template for WP, used for nekohand.moe
+A light-weight template for WP, used for nekohand.moe
 
 绯羽魔法店 Site Theme
 
@@ -9,10 +9,12 @@ A light template for WP, used for nekohand.moe
 
 一个轻量级WordPress模板, 主要代码来自于Zanblog 2.0.1 以及 Initial 1.0.0
 
-这是一个Galgame风格的模板, 集合Github, 全站Ajax。
+这是一个Galgame 动漫风格的模板, 集合Bootstrap, Fontawesome, jwplayer 以及全站Ajax。
 
-比较适合于再次开发的模板
+比较适合于再次开发
 
 代码来源:
 
-我在整理代码来源中。 这些代码都是开源可用的, 但必须注明引用的源地址。
+======
+
+我在整理中。 这些代码都是开源可用的, 但必须注明引用的源地址。
