@@ -5,6 +5,8 @@ A light-weight template for WP, used for nekohand.moe
 
 绯羽魔法店 Site Theme
 
+这是一个初学php, javascript的人写的代码, 不堪入目。 
+
 =======
 
 一个轻量级WordPress模板, 主要代码来自于Zanblog 2.0.1 以及 Initial 1.0.0
