@@ -1,12 +1,11 @@
-scarlet
-=======
+## Theme Scarlet
+
 
 A light-weight template for WP, used for nekohand.moe
 
 绯羽魔法店 Site Theme 存档
 
-
-=======
+## Description
 
 一个轻量级WordPress主题, 主要代码来自于Zanblog 2.0.1 以及 Initial 1.0.0
 
